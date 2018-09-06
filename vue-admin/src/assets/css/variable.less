@@ -1,0 +1,14 @@
+/* global less variable */
+
+// handle 1px problem
+@svg line {
+    width: 1;
+    height: 1;
+    @rect {
+        fill: var(--color, white);
+        x: 0;
+        y: 0;
+        width: 1;
+        height: 0.5;
+    }
+}
