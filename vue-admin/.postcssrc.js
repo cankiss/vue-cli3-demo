@@ -16,6 +16,12 @@ module.exports = {
             "mediaQuery": false,
             "exclude": /(\/|\\)(node_modules)(\/|\\)/
         },
+        "postcss-viewport-units": {
+            /* 过滤原本带有content属性的元素 */
+            filterRule: (rule) => {
+                return rule.selector.indexOf('::after') < 0 && rule.selector.indexOf(':after') < 0 && rule.selector.indexOf('::before') < 0 && rule.selector.indexOf(':before') < 0;
+            }
+        },
         "postcss-write-svg": {}
     }
 }

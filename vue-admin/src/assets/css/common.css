@@ -51,6 +51,7 @@ select {
 
 img {
     border: 0;
+    content: normal !important;
 }
 
 a {
