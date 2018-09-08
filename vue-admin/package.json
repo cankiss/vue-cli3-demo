@@ -5,7 +5,7 @@
     "scripts": {
         "build": "vue-cli-service build",
         "build-qa": "vue-cli-service build --mode qa",
-        "build-dev": "vue-cli-service build --mode qa",
+        "build-dev": "vue-cli-service build --mode dev",
         "dev": "vue-cli-service serve",
         "merge": "node bin/git.merge.js"
     },
@@ -26,8 +26,7 @@
         "inquirer": "^6.2.0",
         "less": "^3.0.4",
         "less-loader": "^4.1.0",
-        "postcss-px-to-viewport-opt": "^0.0.4",
-        "postcss-viewport-units": "^0.1.4",
+        "postcss-pxtorem": "^4.0.1",
         "postcss-write-svg": "^3.0.1",
         "shelljs": "^0.8.2",
         "style-resources-loader": "^1.2.1",

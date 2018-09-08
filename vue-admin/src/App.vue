@@ -3,7 +3,7 @@
     <router-view/>
   </div>
 </template>
-<style>
+<style lang="less">
  @import './assets/css/normalize.css';
- @import './assets/css/common.css';
+ @import './assets/css/common.less';
 </style>
